@@ -104,7 +104,7 @@ export const useLeadStore = create<LeadStore>()(
 
       deleteLead: async (_id) => {
         try {
-          await fetch("https://low-amusing-acapella.glitch.me/api/deletecontact", {
+          await fetch("https://backend-liart-kappa.vercel.app/api/deletecontact", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
