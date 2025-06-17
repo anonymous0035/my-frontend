@@ -147,7 +147,7 @@ export default function LeadForm() {
 
       // Try to send data to backend API (optional)
       try {
-        const response = await fetch("https://backend-liart-kappa.vercel.app/api/contact", {
+        const response = await fetch("https://backend-american-roofing.vercel.app/api/contact", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
