@@ -2,7 +2,7 @@
 
 import { create } from "zustand"
 import { persist } from "zustand/middleware"
-const backend_url = process.env.BACKEND_URL
+
 // Define types
 export type ComponentType =
   | "hero"
@@ -104,7 +104,10 @@ export const useLeadStore = create<LeadStore>()(
 
       deleteLead: async (_id) => {
         try {
+
           await fetch("https://backend-ten-teal-82.vercel.app/api/deletecontact", {
+
+
             method: "POST",
             headers: {
               "Content-Type": "application/json",

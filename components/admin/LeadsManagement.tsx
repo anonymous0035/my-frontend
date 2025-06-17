@@ -21,7 +21,9 @@ export default function LeadsManagement() {
   const fetchLeads = async () => {
     setIsLoading(true)
     try {
-      const response = await fetch("https://backend-ten-teal-82.vercel.app/api/get-all-leads")
+
+      const response = await fetch("https://backend-ten-teal-82.vercel.app/get-all-leads")
+
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`)
       }

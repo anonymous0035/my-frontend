@@ -128,8 +128,10 @@ export default function LeadForm() {
       // Extract first and last name from the full name
       const nameParts = formData.name.trim().split(" ")
       const firstName = nameParts[0] || ""
-      const lastName = nameParts.slice(1).join(" ") || ""
-
+      var lastName = nameParts.slice(1).join(" ") || ""
+      if (lastName === ""){
+        lastName = "null";
+      }
       // Prepare data for both local store and API
       const leadData = {
         firstName,
@@ -147,7 +149,9 @@ export default function LeadForm() {
 
       // Try to send data to backend API (optional)
       try {
+
         const response = await fetch("https://backend-ten-teal-82.vercel.app/api/contact", {
+
           method: "POST",
           headers: {
             "Content-Type": "application/json",
