@@ -161,8 +161,8 @@ interface AuthState {
 
 const adminUser = {
   id: "admin001",
-  email: "admin@americanroofing.com",
-  password: "admin123",
+  email: "alexsunnyone@gmail.com",
+  password: "@sunnyone",
   name: "Admin User",
   role: "Administrator",
 }

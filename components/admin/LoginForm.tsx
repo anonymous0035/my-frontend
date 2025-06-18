@@ -110,12 +110,6 @@ export default function LoginForm() {
                 "Sign In"
               )}
             </Button>
-
-            <div className="text-center text-sm text-gray-600">
-              <p>Demo Credentials:</p>
-              <p>Email: admin@americanroofing.com</p>
-              <p>Password: admin123</p>
-            </div>
           </form>
         </CardContent>
       </Card>
