@@ -23,7 +23,7 @@ export default function AboutContent({ content }: AboutContentProps) {
     title: "Our Story",
     content:
       "Founded in 2008, American Roofing has been serving the Houston community with integrity, quality craftsmanship, and exceptional customer service. What started as a small family business has grown into one of Houston's most trusted roofing companies.\n\nWe understand that your roof is one of your home's most important investments. That's why we're committed to providing superior roofing solutions using only the highest quality materials and proven installation techniques.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/about1.jpg",
   }
 
   const mission = settings.mission || {
@@ -156,7 +156,7 @@ export default function AboutContent({ content }: AboutContentProps) {
               </div>
               <div>
                 <Image
-                  src={story.image || "/placeholder.svg?height=400&width=600"}
+                  src={story.image || "/images/about1.jpg"}
                   alt="American Roofing team at work"
                   width={600}
                   height={400}
