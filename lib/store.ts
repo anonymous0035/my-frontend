@@ -490,22 +490,16 @@ const initialPages: PageContent[] = [
             {
               id: 1,
               title: "Complete Roof Replacement",
-              beforeImage: "/placeholder.svg?height=300&width=400",
-              afterImage: "/placeholder.svg?height=300&width=400",
               description: "Storm-damaged roof transformed with premium architectural shingles",
             },
             {
               id: 2,
               title: "Hail Damage Restoration",
-              beforeImage: "/placeholder.svg?height=300&width=400",
-              afterImage: "/placeholder.svg?height=300&width=400",
               description: "Insurance claim restoration with upgraded materials",
             },
             {
               id: 3,
               title: "Leak Repair & Restoration",
-              beforeImage: "/placeholder.svg?height=300&width=400",
-              afterImage: "/placeholder.svg?height=300&width=400",
               description: "Emergency leak repair with full section replacement",
             },
           ],
@@ -803,7 +797,7 @@ const initialPages: PageContent[] = [
             "American Roofing provides comprehensive roof repair services for homeowners throughout the Houston area. From minor leaks to storm damage, our experienced team can quickly diagnose and repair any roofing issue to protect your home and restore your peace of mind.",
           content:
             "We understand that roof problems can be stressful and disruptive. That's why we prioritize prompt, professional service and transparent communication throughout the repair process.",
-          image: "/placeholder.svg?height=400&width=800",
+          image: "",
         },
       },
       {
