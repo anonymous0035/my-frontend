@@ -50,7 +50,6 @@ export default function Header() {
               <Link href="/services/roof-replacement" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange">Roof Replacement</Link>
               <Link href="/services/roof-repair" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange">Roof Repair</Link>
               <Link href="/services/storm-damage" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange">Storm Damage</Link>
-              <Link href="/services/inspections" className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-orange/10 hover:text-brand-orange">Inspections</Link>
             </div>
           </div>
           <Link href="/about" className="text-sm text-gray-800 hover:text-brand-orange font-medium transition-colors">About Us</Link>
@@ -103,7 +102,6 @@ export default function Header() {
               <Link href="/services/roof-replacement" className="block text-sm text-gray-700 py-1 hover:text-brand-orange" onClick={() => setIsMobileMenuOpen(false)}>Roof Replacement</Link>
               <Link href="/services/roof-repair" className="block text-sm text-gray-700 py-1 hover:text-brand-orange" onClick={() => setIsMobileMenuOpen(false)}>Roof Repair</Link>
               <Link href="/services/storm-damage" className="block text-sm text-gray-700 py-1 hover:text-brand-orange" onClick={() => setIsMobileMenuOpen(false)}>Storm Damage</Link>
-              <Link href="/services/inspections" className="block text-sm text-gray-700 py-1 hover:text-brand-orange" onClick={() => setIsMobileMenuOpen(false)}>Inspections</Link>
             </div>
           )}
         </div>
