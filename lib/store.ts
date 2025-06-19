@@ -525,7 +525,7 @@ const initialPages: PageContent[] = [
       description:
         "Learn about American Roofing's 15+ years of experience serving Houston homeowners with quality roofing services.",
       keywords: "about american roofing, houston roofers, roofing company history",
-      ogImage: "/placeholder.svg?height=630&width=1200",
+      ogImage: "/images/about.jpg",
     },
     images: [],
     components: [
